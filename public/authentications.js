@@ -1,5 +1,5 @@
-$(function(ChatFunction){
-  var ref = new Firebase("https://chatbox-cloudapi.firebaseio.com");
+$(function(GeneralChat){
+  var ref = new Firebase("https://chatbox-cloudapi.firebaseio.com/General");
    $('#messageInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var name = $('#nameInput').val();
@@ -17,6 +17,16 @@ $(function(ChatFunction){
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
     });
+
+
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail());
+}
+
 
 
 $(function(FaceBookLogin) {
@@ -37,7 +47,6 @@ $(function(FaceBookLogin) {
 }, {
   scope: "email,user_likes" // the permissions requested
 });
-
     $("#logout").click(function() {
       ref.unauth();
       document.getElementById("username").innerHTML = "Logged out";
