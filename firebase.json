@@ -5,5 +5,12 @@
     "firebase.json",
     "**/.*",
     "**/node_modules/**"
-  ]
+  ],
+  "redirects": [ {
+	"source" : "/general",
+	"destination" : "/Chatboxes.html",
+	"type" : 301
+}]
 }
+
+
