@@ -1,0 +1,16 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Kenny\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.0
+[debug] Platform:     win32
+[debug] Node Version: v4.4.3
+[debug] Time:         Fri May 27 2016 15:01:50 GMT+0200 (West-Europa (zomertijd))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[warn] !  "firebase" key in firebase.json is deprecated. Run firebase use --add instead
+[warn] !  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Kenny\Desktop\Cloud api
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
