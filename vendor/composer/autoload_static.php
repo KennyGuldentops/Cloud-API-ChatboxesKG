@@ -7,21 +7,17 @@ namespace Composer\Autoload;
 class ComposerStaticInit6f10cdd7fdd4e65d03f24b21552d7af3
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'S' => 
         array (
-            'Composer\\Installers\\' => 20,
+            'Stripe\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Composer\\Installers\\' => 
+        'Stripe\\' => 
         array (
-            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
-    );
-
-    public static $classMap = array (
-        'Codebird\\Codebird' => __DIR__ . '/..' . '/jublonet/codebird-php/src/codebird.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -29,7 +25,6 @@ class ComposerStaticInit6f10cdd7fdd4e65d03f24b21552d7af3
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit6f10cdd7fdd4e65d03f24b21552d7af3::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit6f10cdd7fdd4e65d03f24b21552d7af3::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6f10cdd7fdd4e65d03f24b21552d7af3::$classMap;
 
         }, null, ClassLoader::class);
     }

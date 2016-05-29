@@ -14,7 +14,7 @@ $auth = new TwitterAuth($client);
 
 
 if(isset($_GET['page']) == "shop"){
-	include("public/includes/shop.html");
+	include("public/includes/shop.php");
 }
 else{
 	include("public/includes/navigation.html");

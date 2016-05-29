@@ -1,5 +1,5 @@
 {
 	"require": {
-		"jublonet/codebird-php": "dev-develop"
+		"stripe/stripe-php": "3.*"
 	}
 }
