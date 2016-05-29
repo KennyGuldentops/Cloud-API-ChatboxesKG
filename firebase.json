@@ -1,9 +1,0 @@
-{
-  "firebase": "chatbox-cloudapi",
-  "public": "public",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
