@@ -23,6 +23,7 @@ Daarna gaan we firebase moeten initialiseren
 
 
 daarna starten we server op
+- npm install express
 - node apiserver.js
 * done
 
