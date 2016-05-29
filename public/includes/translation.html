@@ -1,0 +1,33 @@
+ <div class="controls">
+        <select id="source">
+            <option value="en" data-t selected>English</option>
+        </select>
+        <select id="target">
+			<option value="nl" data-t selected>Dutch</option>
+            <option value="fr" data-t>French</option>
+            <option value="ru" data-t>Russian</option>
+            <option value="ja" data-t>Japanese</option>
+            <option value="ko" data-t>Korean</option>
+            
+        </select>
+
+    </div>
+    <table id="translationBox">
+        <tr>
+            
+            <td id="outputBox">
+                <div id="outputTextEditor" class="textEditor">
+				<div class="modal-body row" id="ChatboxTrans">
+							<div class="col-md-8">
+
+						<!-- Chatbox -->
+						<div class="col-md-11" id="ChatWindowTrans" ></div>
+                </div>
+            </td>
+			<td id="inputBox">
+                <div id="inputTextEditor" contenteditable="true" class="textEditor">
+                    
+                </div>
+            </td>
+        </tr>
+    </table>

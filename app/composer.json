@@ -1,0 +1,5 @@
+{
+	"require": {
+		"jublonet/codebird-php": "dev-develop"
+	}
+}

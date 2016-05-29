@@ -1,0 +1,68 @@
+  <html>
+  <head>
+    <title>Login chatbox</title>
+
+    <!-- load google plus-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="530399391929-3tkiacalhi73hp8ru47vtq7s4rftlto9.apps.googleusercontent.com">
+
+    <!--Firebase en jquery -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+    <!-- Link to files -->
+    <script type="text/javascript" src="authentications.js"></script>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+
+    <!-- Bootstrap links-->
+    <link rel="stylesheet" type="text/css" href="bootstrap-social.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      </head>
+
+   <body>
+
+      <div class="container">
+  <div class="row">
+
+    <div class="main">
+
+      <h3>Please Log In, or Sign Up</h3>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <a href="#" class="btn btn-lg btn-primary btn-block" id="fblogin">Facebook</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+         <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+      </div>
+      <div class="login-or">
+        <hr class="hr-or">
+        <span class="span-or">or</span>
+      </div>
+
+      <form role="form">
+        <div class="form-group">
+          <label for="inputUsernameEmail">E-mail</label>
+          <input type="text" class="form-control" id="inputUsernameEmail">
+        </div>
+        <div class="form-group">
+          <a class="pull-right" href="#">Forgot password?</a>
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="checkbox pull-right">
+                  <button type="submit" class="btn btn btn-primary" id="loginemail">Log In</button>
+        </div>
+        <button type="submit" class="btn btn btn-primary" id="emaillogin">Create account</button>
+      </form>
+        <a href="#" onclick="signOut();">Sign out google</a>
+    </div>
+    
+  </div>
+</div>
+    
+
+  </body>
+  </html>

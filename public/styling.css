@@ -1,0 +1,124 @@
+body{
+	font-family: georgia;
+	background-color: #A0A8A0;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+	background-color: #A0A8A0;
+    
+}
+
+#ChatWindow {
+	height: 500px;
+	width: 100%;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    font-family: georgia;
+}
+
+#messageInput {
+	margin-top: 15px; 
+	width:100%;
+}
+
+#vraagid {
+	text-decoration: underline;
+	text-shadow: above;
+	text-color: red;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Monospace;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.style4::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.style4::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.style4::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+#fotokes{
+	height = 100%;
+}
+
+img{
+	border-radius: 10px;
+	padding:1px;
+   border:1px solid #021a40;
+	margin:5px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#dialog{
+	visibility: hidden;
+}
+
+
+
+#source, #target{
+    height: 31px;
+    width: 90px;
+}
+
+#translationBox {
+    width: 100%;
+	overflow-x:hidden;
+}
+
+#outputBox {
+    width: 100%;
+	height: 300px;
+	
+}
+
+.textEditor {
+    overflow: auto;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+    line-height: normal;
+    height: 100%;
+    min-height: 100px;
+    max-height: 400px;
+	
+}
+
+
+
+#outputTextEditor {
+    margin-left: 2px;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+	overflow-x:hidden;
+	overflow-y: scroll;
+}
+
+#translating {
+    color: #428bca;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#translating.hidden {
+    display:none;
+}
+
+.controls {
+    margin: 5px 20px 5px 2px;
+}
