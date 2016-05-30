@@ -15,7 +15,7 @@ Wij hebben gebruik gemaakt van Xampp dus leg ik het hiervoor uit
 - zet het mapje in htdocs
 * done
 
-daarna starten we server op
+daarna starten we server op voor onze eigen profanity api op te starten
 - cd naar het mapje
 - npm install express
 - node apiserver.js
