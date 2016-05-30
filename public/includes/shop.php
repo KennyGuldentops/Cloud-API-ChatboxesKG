@@ -140,7 +140,7 @@
     data-currency="eur">
   </script>
 </form>
-<?php require_once('C:\xampp\htdocs\Stripe\config.php'); 
+<?php require_once('C:\xampp\htdocs\Cloudapi\public\config.php'); 
 $token = $_POST['stripeToken'];
 try {
   $order = \Stripe\Order::create(array(
