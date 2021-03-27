@@ -1,5 +1,5 @@
 # Cloud-API-ChatboxesKG
-This is the github page of Kenny and Gillian for our cloud API's project: chatbox
+This is the github page of Kenny for our cloud API's project: chatbox
 
 Hoe moet je builden:
 
